@@ -1,7 +1,6 @@
 const { Router } = require("express");
 const router = Router();
 const fetch = require("node-fetch");
-const User = require("../models/users");
 
 //routes
 router.get("/get_ford_cars", (req, res) => {
