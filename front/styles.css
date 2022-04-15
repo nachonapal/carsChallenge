@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  color: grey;
+}
+
+#up-cards {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: 16rem;
+  padding: 0.5em;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+i {
+  font-size: 4rem;
+  margin-top: 0.1rem;
+  color: white;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 7rem;
+  height: 7rem;
+  background-color: #6ebfe5;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+h1 {
+  margin: 1.5em;
+  border: 1px solid grey;
+  padding: 0.5rem;
+  font-size: 2em;
+  color: grey;
+}
+#cars-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.car-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: white;
+  width: 16rem;
+  margin: 2rem 1rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.card-image {
+  width: 1px;
+  height: 100px;
+  overflow: hidden;
+}
+.image-fluid {
+  width: 100%;
+  height: 12rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -ms-border-radius: 5px 5px 0 0;
+  -o-border-radius: 5px 5px 0 0;
+}
+.doors-fuel {
+  background-color: #6ebfe5;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}
+.doors-fuel i {
+  font-size: 0.8rem;
+  margin-right: 3px;
+  padding-left: 10px;
+}
+
+.car-info {
+  padding-left: 1rem;
+}
+.car-info h3 {
+  color: rgb(73, 73, 73);
+  font-size: 1.5rem;
+
+  margin-bottom: -0.3em;
+}
+.car-info p {
+  color: #6ebfe5;
+  font-weight: bold;
+}
+#place {
+  color: grey;
+  font-weight: normal;
+}
